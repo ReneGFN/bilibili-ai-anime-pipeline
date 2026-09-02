@@ -6,8 +6,12 @@ __pycache__/
 # Local AI toolchains and generated production material
 _shared/models/
 _shared/voices/
+_shared/tools/
+_shared/tests/
 series-template/
 midnight-parcel/
+*.egg-info/
+python310-install*.log
 */episodes/*/input/
 */episodes/*/temp/
 */episodes/*/output/
@@ -15,4 +19,3 @@ midnight-parcel/
 *.wav
 *.srt
 *.ass
-
