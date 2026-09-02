@@ -1,0 +1,39 @@
+project:
+  title: "Episode title"
+  output_name: "ep-001.mp4"
+  width: 1920
+  height: 1080
+  fps: 24
+  max_duration_seconds: 180
+  cleanup_temp: true
+
+tools:
+  ffmpeg: ffmpeg
+  ffprobe: ffprobe
+  # Leave null when input/narration.wav is supplied.
+  piper: null
+  piper_voice: null
+  # Leave null to skip cue generation.
+  rhubarb: null
+
+audio:
+  narration_text: narration.txt
+  narration_wav: narration.wav
+  speed: 1.0
+
+subtitles:
+  - file: en.srt
+    language: eng
+    title: English
+  - file: zh-Hans.srt
+    language: zho
+    title: Simplified Chinese
+
+scenes:
+  - image: images/01.png
+    duration: 8
+    motion: zoom_in
+  - image: images/02.png
+    duration: 12
+    motion: pan_right
+

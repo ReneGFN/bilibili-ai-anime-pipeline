@@ -1,0 +1,18 @@
+.venv/
+__pycache__/
+*.py[cod]
+.env
+
+# Local AI toolchains and generated production material
+_shared/models/
+_shared/voices/
+series-template/
+midnight-parcel/
+*/episodes/*/input/
+*/episodes/*/temp/
+*/episodes/*/output/
+*.mp4
+*.wav
+*.srt
+*.ass
+
