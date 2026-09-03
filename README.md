@@ -67,6 +67,10 @@ bili-anime build --episode .\midnight-parcel\episodes\ep-001 --config .\input\sc
 
 `cleanup_temp` defaults to `true`. Cleanup happens only after FFprobe confirms that the final MP4 exists, has an audio stream, and is no longer than 180 seconds.
 
+## Channels Used
+https://www.tiktok.com/@moonframetales
+https://www.youtube.com/@moonframetales2
+
 ## Important notes
 
 - Keep each short within 180 seconds. The pipeline rejects longer results.
